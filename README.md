@@ -1,3 +1,3 @@
 # dialog_spa
 
-![로고](https://github.com/hiparkwg/dialog_spa/blob/main/it%EC%97%AC%ED%96%89%EC%9E%90.png)
+![로고](https://github.com/hiparkwg/dialog_spa/blob/main/%ED%8C%8C%EC%9D%BC%EA%B5%AC%EC%A1%B0.png)
