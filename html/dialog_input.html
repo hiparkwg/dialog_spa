@@ -1,0 +1,20 @@
+<dialog id="dialog_input">
+    <h2>판매 정보 입력</h2>
+    <form name="frmInput" id="frmInput">
+        <span>판매일자</span>
+        <input name="nal" type="date"><br/>
+        <span>제품코드</span>
+        <input name="code" type="text" value="a001"><br/>
+        <span>제품명</span>
+        <input name="codeName" type="text" readonly value="식기 세척기"><br/>
+        <span>수량</span>
+        <input name="ea" type="text" class="ea"  oninput="toChangeFormat(this)"><br/>
+        <span>단가</span>
+        <input name="price" type="text" class="price"  oninput="toChangeFormat(this)"><br/>
+        <span>금액</span>
+        <input name="amt" type="text"  class="amt" ><br/>
+        <span></span>
+        <button type="button" id="btnInput">입력</button>
+        <button type="button" id="btnCancle">취소</button>
+    </form>
+</dialog>        

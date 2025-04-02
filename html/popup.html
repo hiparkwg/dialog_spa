@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup</title>
+    <link rel="stylesheet" href="/css/popup.css">
+    <script defer src="/js/popup.js"></script>
+</head>
+<body>
+    <main id="main">
+        <h2>Normal Dialog VS Dialog Tag</h2>
+        <span>Normal</span>
+        <button type="button" class="btnAlert">Alert</button>
+        <button type="button" class="btnConfirm">Confirm</button>
+        <button type="button" class="btnPrompt">Prompt</button>
+        <br/>
+        <span>Dialog</span>
+        <button type="button" class="btnDialogAlert">Alert</button>
+        <button type="button" class="btnDialogConfirm">Confirm</button>
+        <button type="button" class="btnDialogPrompt">Prompt</button>
+        <button type="button" class="btnDialogForm">제품입력</button>
+
+        <dialog class="alert">
+            <image class="image" src="/images/it여행자.png"/>
+            <div>
+                <span>Dialog로 만든 Alert</span><br/>
+                <button type="button" class="alertClose">확인</button>
+            </div>
+        </dialog>
+
+        <dialog class="confirm">
+            <div>구독 좋아요 OK?</div>
+            <div class="btnZone">
+                <button type="button" class="btnOK">당근</button>
+                <button type="button" class="btnYes">넵!</button>
+            </div>
+        </dialog>
+
+        <dialog class="prompt">
+            <div>삭제하시려면 암호를 입력하세요.</div>
+            <input type="password" class="password">
+            <div class="btnZone">
+                <button type="button" class="btnOK">삭제</button>
+                <button type="button" class="btnCancle">취소</button>
+            </div>
+        </dialog>  
+
+        <div id="result"></div>
+    </main>
+</body>
+</html>

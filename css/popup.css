@@ -1,0 +1,111 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    width:450px;
+    margin:50px auto;
+}
+#main>h2{
+    color : #00f;
+}
+#main>span{
+    display: inline-block;
+    width:65px;
+}
+#main>button{
+    width:80px;
+    height: 30px;
+    padding:4px;
+}
+#main>#result{
+    width:100%;
+    padding:15px;
+    background-color: #99f;
+    margin-top:15px;
+}
+
+/* dialog alert */
+.alert{
+    width:350px;
+    border:0px;
+    border-radius: 7px;
+    box-shadow: 3px 3px 9px #aaa;
+    margin-top:100px;
+}
+.alert .image{
+    width:90px;
+}
+.alert>div{
+    display: inline-block;
+    margin-top:10px;
+}
+.alert .alertClose{
+    background-color: #00f;
+    color:#fff;
+    width:70px;
+    padding:3px;
+    margin-top:10px;
+}
+
+/* dialog confirm */
+.confirm{
+    width: 450px;
+    height: 120px;
+    text-align: center;
+    padding:10px;
+    border:0px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 9px 2px #aaa;
+    background-color: #eef;
+    margin-top:5px;
+}
+.confirm>.btnZone{
+    margin-top:45px;
+    text-align: right;
+}
+.confirm .btnOK{
+    background-color: #00f;
+    color : #fff;
+    border:0px;
+    padding:5px 20px;
+}
+.confirm .btnYes{
+    background-color: #000;
+    color:#fff;
+    border:0px;
+    padding:5px 20px;
+}
+
+/* dialog prompt */
+.prompt{
+    width:450px;
+    padding:20px;
+}
+.prompt .password{
+    width: 100%;
+    margin:10px 0;
+    font-size:1.3em;
+    padding:2px;
+}
+.prompt .btnZone{
+    text-align: right;
+}
+.prompt .btnOK{
+    background-color: #f00;
+    border-color : #f00;
+    color:#ff0;
+}
+
+/* dialog form */
+#dialog_input span{
+    display: inline-block;
+    width:80px;
+    text-align: right;
+    padding-right:5px;
+}
+#dialog_input h2{
+    text-align: center;
+}
+#dialog_input .ea { text-align: right;}
+#dialog_input .price { text-align: right;}
+#dialog_input .amt { text-align: right;}
